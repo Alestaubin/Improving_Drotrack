@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="Improving DroTrack: Advancing Object Tracking Algorithms">
+  <meta name="keywords" content="Object Tracking, DroTrack, Computer Vision, Drone Tracking">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Improving DroTrack: Insights and Advancements for Drone-based
+    Tracking</title>
+
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-PYVRSFMDRL');
+  </script>
+
+  <!-- Styles -->
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+  <link rel="icon" href="./static/images/favicon.svg">
+
+  <!-- Scripts -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+
+<!-- Header -->
+<section class="hero is-light">
+  <div class="hero-body">
+    <div class="container has-text-centered">
+      <h1 class="title is-1">Improving DroTrack: Insights and Advancements for Drone-based
+        Tracking</h1>
+      <p class="subtitle">Alexandre St-Aubin, Alexis Viau-Cardinal, Rafid Saif</p>
+      <span class="link-block">
+        <a href="https://github.com/google/nerfies"
+           class="external-link button is-normal is-rounded is-dark">
+          <span class="icon">
+              <i class="fab fa-github"></i>
+          </span>
+          <span>Code</span>
+          </a>
+      </span>
+    </div>
+  </div>
+</section>
+
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <video id="teaser" autoplay muted loop playsinline height="100%">
+        <source src="./static/videos/teaser.mp4"
+                type="video/mp4">
+      </video>
+      <h2 class="subtitle has-text-centered">
+        <span class="dnerf">Nerfies</span> turns selfie videos from your phone into
+        free-viewpoint
+        portraits.
+      </h2>
+    </div>
+  </div>
+</section>
+
+
+<!-- Abstract -->
+<section class="section">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-three-fifths has-text-justified">
+        <h2 class="title is-3 has-text-centered">Abstract</h2>
+        <p>
+          In this work, we present advancements to the DroTrack algorithm for improved object tracking in drone-based applications. 
+          Our proposed method enhances accuracy and robustness in long-range, real-time scenarios. 
+          We compare DroTrack to our improvements using multiple examples, highlighting improvements.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Comparison Section -->
+<section class="section">
+  <div class="container">
+    <h2 class="title is-3 has-text-centered">Video Comparisons</h2>
+
+    <!-- Example 1 -->
+    <div class="columns is-vcentered">
+      <div class="column is-one-third">
+        <h3 class="title is-4">Example 1: Fast Motion</h3>
+        <p>Our method demonstrates superior handling of high-speed object movement compared to DroTrack.</p>
+      </div>
+      <div class="column is-two-third">
+        <div class="columns">
+          <div class="column">
+            <h4 class="subtitle has-text-centered">DroTrack</h4>
+            <video controls muted playsinline>
+              <source src="./static/videos/uav0000071_00816_s_Drotrack.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="column">
+            <h4 class="subtitle has-text-centered">Our Method</h4>
+            <video controls muted playsinline>
+              <source src="./static/videos/uav0000071_00816_s_Ours.mp4" type="video/mp4">
+            </video>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Example 2 -->
+    <div class="columns is-vcentered">
+      <div class="column is-one-third">
+        <h3 class="title is-4">Example 2: Bla bla</h3>
+        <p>Bla bla bla.</p>
+      </div>
+      <div class="column is-two-third">
+        <div class="columns">
+          <div class="column">
+            <h4 class="subtitle has-text-centered">DroTrack</h4>
+            <video controls muted playsinline>
+              <source src="./static/videos/uav0000070_04877_s_Drotrack.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="column">
+            <h4 class="subtitle has-text-centered">Our Method</h4>
+            <video controls muted playsinline>
+              <source src="./static/videos/uav0000070_04877_s_Ours.mp4" type="video/mp4">
+            </video>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Example 3 -->
+    <div class="columns is-vcentered">
+      <div class="column is-one-third">
+        <h3 class="title is-4">Example 3: Bla bla bla</h3>
+        <p>bla bla bla .</p>
+      </div>
+      <div class="column is-two-third">
+        <div class="columns">
+          <div class="column">
+            <h4 class="subtitle has-text-centered">DroTrack</h4>
+            <video controls muted playsinline>
+              <source src="./static/videos/drotrack_multi.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="column">
+            <h4 class="subtitle has-text-centered">Our Method</h4>
+            <video controls muted playsinline>
+              <source src="./static/videos/ours_multi.mp4" type="video/mp4">
+            </video>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="container">
+    <div class="content has-text-centered">
+      <p>
+        <strong>Improving DroTrack</strong> by Alexandre St-Aubin, Alexis Viau-Cardinal, Rafid Saif. 
+      </p>
+      <p>
+        Website template adapted from <a href="https://nerfies.github.io">Nerfies</a>.
+      </p>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
