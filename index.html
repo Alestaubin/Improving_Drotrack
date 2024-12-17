@@ -17,14 +17,23 @@
     gtag('config', 'G-PYVRSFMDRL');
   </script>
 
-  <!-- Styles -->
-  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+  rel="stylesheet">
+
   <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
   <link rel="stylesheet" href="./static/css/index.css">
   <link rel="icon" href="./static/images/favicon.svg">
 
-  <!-- Scripts -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
 </head>
 <body>
 
@@ -36,7 +45,7 @@
         Tracking</h1>
       <p class="subtitle">Alexandre St-Aubin, Alexis Viau-Cardinal, Rafid Saif</p>
       <span class="link-block">
-        <a href="https://github.com/google/nerfies"
+        <a href="https://github.com/AlexisViauCardinal/COMP558-FinalProject"
            class="external-link button is-normal is-rounded is-dark">
           <span class="icon">
               <i class="fab fa-github"></i>
@@ -52,13 +61,10 @@
   <div class="container is-max-desktop">
     <div class="hero-body">
       <video id="teaser" autoplay muted loop playsinline height="100%">
-        <source src="./static/videos/teaser.mp4"
+        <source src="./static/videos/Teaser-ID.mp4"
                 type="video/mp4">
       </video>
       <h2 class="subtitle has-text-centered">
-        <span class="dnerf">Nerfies</span> turns selfie videos from your phone into
-        free-viewpoint
-        portraits.
       </h2>
     </div>
   </div>
@@ -113,8 +119,8 @@
     <!-- Example 2 -->
     <div class="columns is-vcentered">
       <div class="column is-one-third">
-        <h3 class="title is-4">Example 2: Bla bla</h3>
-        <p>Bla bla bla.</p>
+        <h3 class="title is-4">Example 2: Fast Motion</h3>
+        <p>Again, our method handles fast motion better.</p>
       </div>
       <div class="column is-two-third">
         <div class="columns">
@@ -137,21 +143,21 @@
     <!-- Example 3 -->
     <div class="columns is-vcentered">
       <div class="column is-one-third">
-        <h3 class="title is-4">Example 3: Bla bla bla</h3>
-        <p>bla bla bla .</p>
+        <h3 class="title is-4">Example 3: Occlusion</h3>
+        <p>When the car passes under the power lines, our method does a better job (yet far from perfect) of keeping track of the car.</p>
       </div>
       <div class="column is-two-third">
         <div class="columns">
           <div class="column">
             <h4 class="subtitle has-text-centered">DroTrack</h4>
             <video controls muted playsinline>
-              <source src="./static/videos/drotrack_multi.mp4" type="video/mp4">
+              <source src="./static/videos/uav0000170_00000_s_Drotrack.mp4" type="video/mp4">
             </video>
           </div>
           <div class="column">
             <h4 class="subtitle has-text-centered">Our Method</h4>
             <video controls muted playsinline>
-              <source src="./static/videos/ours_multi.mp4" type="video/mp4">
+              <source src="./static/videos/17-12-11-28-uav0000170_00000_s_ours.mp4" type="video/mp4">
             </video>
           </div>
         </div>
